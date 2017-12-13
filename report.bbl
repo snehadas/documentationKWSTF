@@ -1,0 +1,36 @@
+\begin{thebibliography}{1}
+
+\bibitem{devd}
+Google.
+\newblock Android developers, 2017.
+
+\bibitem{md}
+Google.
+\newblock Material design: Color - style - material design, 2017.
+
+\bibitem{nielsen2005ten}
+Jakob Nielsen.
+\newblock Ten usability heuristics, 2005.
+
+\bibitem{shneiderman2005shneiderman}
+Ben Shneiderman.
+\newblock Shneiderman's eight golden rules of interface design.
+\newblock {\em Retrieved July}, 25:2009, 2005.
+
+\bibitem{shneiderman2010designing}
+Ben Shneiderman.
+\newblock {\em Designing the user interface: strategies for effective
+  human-computer interaction}.
+\newblock Pearson Education India, 2010.
+
+\bibitem{smith1986guidelines}
+Sidney~L Smith and Jane~N Mosier.
+\newblock {\em Guidelines for designing user interface software}.
+\newblock Mitre Corporation Bedford, MA, 1986.
+
+\bibitem{tognazzini2003first}
+Bruce Tognazzini.
+\newblock First principles of interaction design.
+\newblock {\em Interaction design solutions for the real world, AskTog}, 2003.
+
+\end{thebibliography}

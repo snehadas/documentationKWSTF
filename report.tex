@@ -4,6 +4,7 @@
 \usepackage{multirow}
 \usepackage{graphicx}
 \usepackage{subfig}
+\usepackage{float}
 
 \title{Water Service platform for underserviced communities}
 \author{Chang Liu, Sneha Das}
@@ -20,7 +21,7 @@ to provide timely services to repairs, based on standard remuneration. Thus,
 this application is conceptualized to function as a mediator between the public,
 who thrive to maintain the water services for the community, and the plumbers
 available in the region. Not only does this accelerate the provision of services
-for maintaining water infrastructure when resources are constrained, but also
+for maintaining water infrastructure when resources are constrained, but it could also
 helps in providing jobs and visibility to the plumbing community.
 
 The applica-
@@ -97,12 +98,9 @@ language to define the layout of the page and then we used java language to crea
 Four Principles of Good Design (Shneiderman 1998):\\
 2. Should be a good conceptual model with a consistent system image.\\
 
-\noindent
-{\bf Implementation}
-
 
 \begin{center}
-  \begin{tabular}{ |p{4cm}|p{8cm}|  }
+  \begin{tabular}{ |c|p{8cm}|  }
   \hline
   \multicolumn{2}{|c|}{\bf Implementation} \\
   \hline
@@ -114,7 +112,7 @@ Four Principles of Good Design (Shneiderman 1998):\\
   \hline
   Page content plain text & 12sp, black color \#000000 \\
     \hline
-  Buttons    & \multirow{2}{2em}{background: blue color, \#81D4FA; text: 12sp, white color \#FFFFFF} \\
+  Buttons    & \parbox[t]{7cm}{background: blue color, \#81D4FA\\ text: 12sp, white color \#FFFFFF} \\
     \hline
   Text Links & 12sp, blue color, \#4FC3F7 \\
     \hline
@@ -129,8 +127,8 @@ Four Principles of Good Design (Shneiderman 1998):\\
   \end{tabular}
 \end{center}
 
-\newpage
-\begin{figure}
+
+\begin{figure}[H]
   \centering
 
 \subfloat[label 1]{{\includegraphics[width=4cm]{files/report_leak/home.png} }}%
@@ -143,12 +141,10 @@ Four Principles of Good Design (Shneiderman 1998):\\
 \subfloat[label 4]{{\includegraphics[width=4cm]{files/report_leak/a2.png} }}%
 \qquad
     \subfloat[label 5]{{\includegraphics[width=4cm]{files/report_leak/a4.png} }}%
-    \caption{Report Leak}%
+    \caption{Guideline 01: Report Leak}%
 \end{figure}
 
-\newpage
-
-\begin{figure}
+\begin{figure}[H]
   \centering
 
 \subfloat[label 1]{{\includegraphics[width=4cm]{files/register/login.png} }}%
@@ -163,12 +159,10 @@ Four Principles of Good Design (Shneiderman 1998):\\
     \subfloat[label 5]{{\includegraphics[width=4cm]{files/register/b4.png} }}%
     \qquad
         \subfloat[label 6]{{\includegraphics[width=4cm]{files/register/b5.png} }}%
-    \caption{Register as a plumber}%
+    \caption{Guideline 01: Register as a plumber}%
 \end{figure}
 
-\newpage
-
-\begin{figure}
+\begin{figure}[H]
   \centering
 
 \subfloat[label 1]{{\includegraphics[width=4cm]{files/menu/about.png} }}%
@@ -176,7 +170,7 @@ Four Principles of Good Design (Shneiderman 1998):\\
     \subfloat[label 2]{{\includegraphics[width=4cm]{files/menu/contact.png} }}%
     \qquad
     \subfloat[label 3]{{\includegraphics[width=4cm]{files/menu/search.png} }} \\
-    \caption{Menu}%
+    \caption{Guideline 01: Menu}%
 \end{figure}
 
 \subsection{Guideline 02}
@@ -189,35 +183,106 @@ Implementation:
 \item Popup-window
 \item Time-track and Estimated Time Notice
 \end{itemize}
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=15cm]{files/figures/fig1_guide2.png}
-\caption{fig1guide02}
-\end{figure}
-
-When the user want to report a leak and right after the user hit the “Send Report” button, a pop-up window will be
+\caption{Guideline 02: When the user want to report a leak and right after the user hit the “Send Report” button, a pop-up window will be
 activated and displayed on “My Report” page, give the user positive respond that the report has been sent. At the same
 time, the timer was sent to track the time that has passed since the user submitted the case, so the user could have a clear
 image that how fast the KWSTF are responding to the report.
 After KWSTF has found a plumber, “My Report” will be updated, a “Count-down” timer will be activated according to the
 time the plumber estimated to spend on fixing the leak, so the user could be clear that the leak will be fixed in a specific
-time. At the same time, the previous timer will stop counting and display the time used to find a plumber.
+time. At the same time, the previous timer will stop counting and display the time used to find a plumber.}
+\end{figure}
 
-\begin{figure}
+
+
+\begin{figure}[H]
 \centering
 \includegraphics[width=15cm]{files/figures/fig2_guide2.png}
-\caption{fig2guide02}
-\end{figure}
-\section{Results}
-\lipsum[2-3]
-\section{discussion}
-After the plumber has submitted the registrations form, the user will be sent to “My Profile”, with a notification on the title saying
+\caption{Guideline 02: After the plumber has submitted the registrations form, the user will be sent to “My Profile”, with a notification on the title saying
 the profile has been sent to KWSTF, the estimated time for the process will be displayed under the title, so the user would be clear
 when he could get the respond from KWSFT, besides that, the contact information are displayed under, the user could choose to
 call or send an email to inquire about his case.
 When a decision is made by KWSTF, “My Profile” page will be updated, with “Approved” or “Pending” or “Rejected” status
 displayed under, if it’s still in “Pending”, KWSTF contact info are available on the page for user to take the next step.
+}
+\end{figure}
 
-\section{conclusion}
-\section{References}
+\subsection{Guideline 03}
+Nielsen’s Ten Heuristic Rules (1993):\\
+1. Simple and natural dialog 2. Speak the user’s language 3. Minimize user’s memory load 7. Shortcuts
+
+\noindent
+Implementation:
+\begin{itemize}
+\item Bottom Navigation Bar
+\item Menu Items
+\item Page Update
+\end{itemize}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=15cm]{files/figures/fig1_guide3.png}
+\caption{Guideline 03: The app use user’s language and give users hint with blue text to prevent erros. “Bottom Navigation” bar is the shortcut for the
+pages. User can always go back to home page and start over again. After the report was sent, it will be stored in “My Report”,
+users could go to the page and check the updates.}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=15cm]{files/figures/fig2_guide3.png}
+\caption{Guideline 03: “Login” link was listed on top of the page, so if the user already have an account, he can use the shortcut to login. The
+KWSTF contact card will be displayed every time there is a need, and the contact info are listed in the menu items, users
+can also use “Menu” to quickly locate the contact info.}
+
+\end{figure} 
+
+\subsection{Guideline 04}
+Jakob Nielsen’s Ten Usability Heuristics:\\
+2. Match between system and the real world (METAPHOR) 6. Recognition rather than recall (MEMORY) 8. Aesthetic and minimalist design (DESIGN)
+
+\noindent
+Implementation:
+\begin{itemize}
+\item Drop-down list
+\item Radio Button
+\end{itemize}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=15cm]{files/figures/fig1_guide4.png}
+\caption{Guideline 04: A lot of Icons are used to make the app works closely with user’s real life. When we need to have the input from users, we
+provide “Dropdown menu” or “Radio Button”, so the users don’t need to recall but only to choose from the current. The
+design have only one main theme color: blue, when there is a need to distinguish, different blue tone is used instead of
+other colors, which makes the app design is simple and not color-blind users.}\nocite{*}
+
+\end{figure} 
+
+
+
+\subsection{Guideline 05}
+Smith \& Mosier: Data Display\\
+2.0/13 Consistent Wording 2.0/15 Consistent Grammatical Structure
+\noindent
+Implementation:
+\begin{itemize}
+\item Grammatical Structure goes like: Report/Register + A leak/ As a plumber
+\item Wording goes like: I have/know + tool box/the area
+\end{itemize}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=15cm]{files/figures/fig1_guide5.png}
+\caption{Guideline 05}
+
+\end{figure} 
+
+
+
+\newpage
+
+\bibliographystyle{plain}
+\bibliography{ref} 
+
 \end{document}
