@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.25)  13 DEC 2017 11:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.25)  13 DEC 2017 12:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -252,13 +252,17 @@ Missing character: There is no ô in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 35.
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 49.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 35.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 49.
 Missing character: There is no ‚ in font cmbx10!
 Missing character: There is no Ä in font cmbx10!
 Missing character: There is no ô in font cmbx10!
@@ -268,135 +272,131 @@ Missing character: There is no ô in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Missing character: There is no ‚ in font cmbx10!
 Missing character: There is no Ä in font cmbx10!
 Missing character: There is no ô in font cmbx10!
 Missing character: There is no ‚ in font cmbx10!
 Missing character: There is no Ä in font cmbx10!
 Missing character: There is no ô in font cmbx10!
-
-Underfull \hbox (badness 10000) in paragraph at lines 98--100
+ [2]
+Underfull \hbox (badness 10000) in paragraph at lines 112--114
 
  []
 
-[2]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 103.
+(Font)              <7> on input line 117.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 103.
- <files/report_leak/home.png, id=15, 770.88pt x 1284.8pt>
+(Font)              <5> on input line 117.
+<files/report_leak/home.png, id=16, 770.88pt x 1284.8pt>
 File: files/report_leak/home.png Graphic file (type png)
 
 <use files/report_leak/home.png>
-Package pdftex.def Info: files/report_leak/home.png used on input line 134.
+Package pdftex.def Info: files/report_leak/home.png used on input line 148.
 (pdftex.def)             Requested size: 113.81102pt x 189.67299pt.
 
-<files/report_leak/a1.png, id=17, 770.88pt x 1284.8pt>
+<files/report_leak/a1.png, id=18, 770.88pt x 1284.8pt>
 File: files/report_leak/a1.png Graphic file (type png)
 
 <use files/report_leak/a1.png>
-Package pdftex.def Info: files/report_leak/a1.png used on input line 136.
+Package pdftex.def Info: files/report_leak/a1.png used on input line 150.
 (pdftex.def)             Requested size: 113.81102pt x 189.67299pt.
 
-<files/report_leak/popup.png, id=18, 770.88pt x 1284.8pt>
+<files/report_leak/popup.png, id=19, 770.88pt x 1284.8pt>
 File: files/report_leak/popup.png Graphic file (type png)
 
 <use files/report_leak/popup.png>
-Package pdftex.def Info: files/report_leak/popup.png used on input line 138.
+Package pdftex.def Info: files/report_leak/popup.png used on input line 152.
 (pdftex.def)             Requested size: 113.81102pt x 189.67299pt.
 
-<files/report_leak/a2.png, id=19, 770.88pt x 1284.8pt>
+<files/report_leak/a2.png, id=20, 770.88pt x 1284.8pt>
 File: files/report_leak/a2.png Graphic file (type png)
 
 <use files/report_leak/a2.png>
-Package pdftex.def Info: files/report_leak/a2.png used on input line 141.
+Package pdftex.def Info: files/report_leak/a2.png used on input line 155.
 (pdftex.def)             Requested size: 113.81102pt x 189.67299pt.
 
-<files/report_leak/a4.png, id=20, 770.88pt x 1284.8pt>
+<files/report_leak/a4.png, id=21, 770.88pt x 1284.8pt>
 File: files/report_leak/a4.png Graphic file (type png)
 
 <use files/report_leak/a4.png>
-Package pdftex.def Info: files/report_leak/a4.png used on input line 143.
+Package pdftex.def Info: files/report_leak/a4.png used on input line 157.
 (pdftex.def)             Requested size: 113.81102pt x 189.67299pt.
  [3]
-<files/register/login.png, id=24, 770.88pt x 1284.8pt>
+<files/register/login.png, id=25, 770.88pt x 1284.8pt>
 File: files/register/login.png Graphic file (type png)
 
 <use files/register/login.png>
-Package pdftex.def Info: files/register/login.png used on input line 150.
+Package pdftex.def Info: files/register/login.png used on input line 164.
 (pdftex.def)             Requested size: 113.81102pt x 189.67299pt.
 
-<files/register/b1.png, id=25, 770.88pt x 1284.8pt>
+<files/register/b1.png, id=26, 770.88pt x 1284.8pt>
 File: files/register/b1.png Graphic file (type png)
 
 <use files/register/b1.png>
-Package pdftex.def Info: files/register/b1.png used on input line 152.
+Package pdftex.def Info: files/register/b1.png used on input line 166.
 (pdftex.def)             Requested size: 113.81102pt x 189.67299pt.
 
-<files/register/b2.png, id=26, 770.88pt x 1284.8pt>
+<files/register/b2.png, id=27, 770.88pt x 1284.8pt>
 File: files/register/b2.png Graphic file (type png)
 
 <use files/register/b2.png>
-Package pdftex.def Info: files/register/b2.png used on input line 154.
+Package pdftex.def Info: files/register/b2.png used on input line 168.
 (pdftex.def)             Requested size: 113.81102pt x 189.67299pt.
 
-<files/register/b3.png, id=27, 770.88pt x 1284.8pt>
+<files/register/b3.png, id=28, 770.88pt x 1284.8pt>
 File: files/register/b3.png Graphic file (type png)
 
 <use files/register/b3.png>
-Package pdftex.def Info: files/register/b3.png used on input line 157.
+Package pdftex.def Info: files/register/b3.png used on input line 171.
 (pdftex.def)             Requested size: 113.81102pt x 189.67299pt.
 
-<files/register/b4.png, id=28, 770.88pt x 1284.8pt>
+<files/register/b4.png, id=29, 770.88pt x 1284.8pt>
 File: files/register/b4.png Graphic file (type png)
 
 <use files/register/b4.png>
-Package pdftex.def Info: files/register/b4.png used on input line 159.
+Package pdftex.def Info: files/register/b4.png used on input line 173.
 (pdftex.def)             Requested size: 113.81102pt x 189.67299pt.
 
-<files/register/b5.png, id=29, 770.88pt x 1284.8pt>
+<files/register/b5.png, id=30, 770.88pt x 1284.8pt>
 File: files/register/b5.png Graphic file (type png)
 
 <use files/register/b5.png>
-Package pdftex.def Info: files/register/b5.png used on input line 161.
+Package pdftex.def Info: files/register/b5.png used on input line 175.
 (pdftex.def)             Requested size: 113.81102pt x 189.67299pt.
  [4 <./files/report_leak/home.png> <./files/report_leak/a1.png> <./files/report
 _leak/popup.png> <./files/report_leak/a2.png> <./files/report_leak/a4.png>] <fi
-les/menu/about.png, id=39, 770.88pt x 1284.8pt>
+les/menu/about.png, id=40, 770.88pt x 1284.8pt>
 File: files/menu/about.png Graphic file (type png)
 
 <use files/menu/about.png>
-Package pdftex.def Info: files/menu/about.png used on input line 168.
+Package pdftex.def Info: files/menu/about.png used on input line 182.
 (pdftex.def)             Requested size: 113.81102pt x 189.67299pt.
 
-<files/menu/contact.png, id=40, 770.88pt x 1284.8pt>
+<files/menu/contact.png, id=41, 770.88pt x 1284.8pt>
 File: files/menu/contact.png Graphic file (type png)
 
 <use files/menu/contact.png>
-Package pdftex.def Info: files/menu/contact.png used on input line 170.
+Package pdftex.def Info: files/menu/contact.png used on input line 184.
 (pdftex.def)             Requested size: 113.81102pt x 189.67299pt.
 
-<files/menu/search.png, id=41, 770.88pt x 1284.8pt>
+<files/menu/search.png, id=42, 770.88pt x 1284.8pt>
 File: files/menu/search.png Graphic file (type png)
 
 <use files/menu/search.png>
-Package pdftex.def Info: files/menu/search.png used on input line 172.
+Package pdftex.def Info: files/menu/search.png used on input line 186.
 (pdftex.def)             Requested size: 113.81102pt x 189.67299pt.
  [5 <./files/register/login.png> <./files/register/b1.png> <./files/register/b2
 .png> <./files/register/b3.png> <./files/register/b4.png> <./files/register/b5.
 png>]
-Underfull \hbox (badness 10000) in paragraph at lines 177--179
+Underfull \hbox (badness 10000) in paragraph at lines 191--193
 
  []
 
-<files/figures/fig1_guide2.png, id=51, 1139.25626pt x 521.95pt>
+<files/figures/fig1_guide2.png, id=52, 1139.25626pt x 521.95pt>
 File: files/figures/fig1_guide2.png Graphic file (type png)
 
 <use files/figures/fig1_guide2.png>
-Package pdftex.def Info: files/figures/fig1_guide2.png used on input line 188.
+Package pdftex.def Info: files/figures/fig1_guide2.png used on input line 202.
 (pdftex.def)             Requested size: 426.79134pt x 195.53165pt.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
@@ -448,11 +448,11 @@ Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
  [6 <./files/menu/about.png> <./files/menu/contact.png> <./files/menu/search.pn
 g>]
-<files/figures/fig2_guide2.png, id=58, 1151.30125pt x 525.965pt>
+<files/figures/fig2_guide2.png, id=59, 1151.30125pt x 525.965pt>
 File: files/figures/fig2_guide2.png Graphic file (type png)
 
 <use files/figures/fig2_guide2.png>
-Package pdftex.def Info: files/figures/fig2_guide2.png used on input line 202.
+Package pdftex.def Info: files/figures/fig2_guide2.png used on input line 216.
 (pdftex.def)             Requested size: 426.79134pt x 194.97318pt.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
@@ -543,11 +543,11 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
-<files/figures/fig1_guide3.png, id=64, 1360.08125pt x 741.77126pt>
+<files/figures/fig1_guide3.png, id=65, 1360.08125pt x 741.77126pt>
 File: files/figures/fig1_guide3.png Graphic file (type png)
 
 <use files/figures/fig1_guide3.png>
-Package pdftex.def Info: files/figures/fig1_guide3.png used on input line 226.
+Package pdftex.def Info: files/figures/fig1_guide3.png used on input line 240.
 (pdftex.def)             Requested size: 426.79134pt x 232.76501pt.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
@@ -580,11 +580,11 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
  [8 <./files/figures/fig2_guide2.png>]
-<files/figures/fig2_guide3.png, id=69, 1358.07375pt x 739.76375pt>
+<files/figures/fig2_guide3.png, id=70, 1358.07375pt x 739.76375pt>
 File: files/figures/fig2_guide3.png Graphic file (type png)
 
 <use files/figures/fig2_guide3.png>
-Package pdftex.def Info: files/figures/fig2_guide3.png used on input line 234.
+Package pdftex.def Info: files/figures/fig2_guide3.png used on input line 248.
 (pdftex.def)             Requested size: 426.79134pt x 232.4737pt.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
@@ -614,11 +614,11 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
  [9 <./files/figures/fig1_guide3.png> <./files/figures/fig2_guide3.png>]
-<files/figures/fig1_guide4.png, id=73, 1360.08125pt x 740.7675pt>
+<files/figures/fig1_guide4.png, id=74, 1360.08125pt x 740.7675pt>
 File: files/figures/fig1_guide4.png Graphic file (type png)
 
 <use files/figures/fig1_guide4.png>
-Package pdftex.def Info: files/figures/fig1_guide4.png used on input line 254.
+Package pdftex.def Info: files/figures/fig1_guide4.png used on input line 268.
 (pdftex.def)             Requested size: 426.79134pt x 232.45004pt.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
@@ -657,18 +657,18 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
-<files/figures/fig1_guide5.png, id=74, 1627.07875pt x 880.28876pt>
+<files/figures/fig1_guide5.png, id=75, 1627.07875pt x 880.28876pt>
 File: files/figures/fig1_guide5.png Graphic file (type png)
 
 <use files/figures/fig1_guide5.png>
-Package pdftex.def Info: files/figures/fig1_guide5.png used on input line 276.
+Package pdftex.def Info: files/figures/fig1_guide5.png used on input line 290.
 (pdftex.def)             Requested size: 426.79134pt x 230.89792pt.
  [10 <./files/figures/fig1_guide4.png>]
 [11 <./files/figures/fig1_guide5.png>] (./report.bbl) [12] (./report.aux) ) 
 Here is how much of TeX's memory you used:
  3564 strings out of 493029
  56100 string characters out of 6136234
- 223717 words of memory out of 5000000
+ 225717 words of memory out of 5000000
  7047 multiletter control sequences out of 15000+600000
  8241 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -682,7 +682,7 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist
 type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmti10.pfb>
-Output written on report.pdf (12 pages, 1602649 bytes).
+Output written on report.pdf (12 pages, 1606807 bytes).
 PDF statistics:
  112 PDF objects out of 1000 (max. 8388607)
  53 compressed objects within 1 object stream

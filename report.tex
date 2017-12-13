@@ -13,7 +13,7 @@
 \maketitle
 
 \section{Introduction}
-This report presents the prototyping of an application addressing the ’crowd-
+We developed an android application to address the ’crowd-
 sourcing’ of the inspection and detection of water service malfunctions, in under-
 resourced communities. The application has options for civilians, who wish to
 report malfunctions and leakages, and plumbers to register with the KWSTF,
@@ -24,11 +24,25 @@ available in the region. Not only does this accelerate the provision of services
 for maintaining water infrastructure when resources are constrained, but it could also
 helps in providing jobs and visibility to the plumbing community.
 
-The applica-
-tion begins with \lipsum[2]
+The application provides the users with two options: 1. to report leakages in the city 2. to provide plumber services. As a user reporting a leak, the app does not necessarily require the user to login or sign-up. However, a registered plumber with the KWSTF is required to have a profile which is made possible by signing-up and login-in to use the app, because based on the work history and feedback received by a plumber, their profile 
+is updated, which adds a level of credibility of the plumber. The application begins with the home-page, mainly
+comprising of two buttons, for {\it reporting} and {\it registering}. Also, if the user already has an account, they have 
+an option to {\it login}. If the user wishes to report a leak, they choose {\it report}, which re-directs
+them to the report form. This form requests all the details required to look for a plumber with potential 
+to fix the malfunction. The user has options to {\it send report} or to {\it cancel} the action. If the user chooses {\it cancel}, they are taken to the home screen. On pressing
+{\it send report}, a pop-up is presented to the user with confirmation that the report was sent. The user 
+can dismiss the pop-up by pressing {\it OK} on the pop-up, following which the screen with details of the expected arrival time of the plumber is displayed to the user. This view is designed to contain a counter, which is indicative of the plumber's arrival. In the completely functional app, the counter should be initiated and controlled by backend-coding and search and find action by the KWSTF to locate a plumber. When a plumber is found, the corresponding details are also displayed on this screen. Finally, when the plumber
+has fixed the issue, this information is updated to the user under {\it My report}. At any time after submitting the report, the user can access the status of the complain under {\it My report}. Also, in all the screens, a navigation screen is provided for users to go to the {\it Home}, {\it Setting}.
+
+To register as a plumber, the user chooses {\it register} on the home screen, following which they are redirected to the registration form. this form seeks the basic details to evaluate the suitability of the plumber and the resource they can be. After submitting, the user is notified of the time the process could take and the contact details to get back to KWSTF. During the evaluation process, the plumber can stay updated
+about the application status by visiting {\it My profile}. The possible outcomes of the registration request 
+are {\it Pending}, {\it Approved}, {\it Rejected}. If the registration is approved, then the details provided by the user is saved as the user profile, work history. etc. The back-end procedure for registration should 
+include a rigorous vetting process and security-check among other evaluation criterion. 
+
+
 
 \section{Background}
-In the design of the UI, we have explored the following guidelines:
+In the design of the User-Interface, we have explored the following guidelines:
 \begin{enumerate}
 \item{\bf Four Principles of Good Design (Shneiderman 1998)}
 \begin{itemize}
